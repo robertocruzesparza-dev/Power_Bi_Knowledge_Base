@@ -1,0 +1,31 @@
+A SKU|Azure-billed Power BI Embedded capacity sizes A1 to A8, billed hourly, for embedding.
+ADLS|Azure Data Lake Storage, Azure storage with folders used by Fabric and dataflows.
+B2B|Business-to-business: Microsoft Entra feature that invites external guests into your tenant.
+BYOK|Bring your own key: customer-supplied key that encrypts imported Power BI semantic models.
+CMK|Customer-managed key: customer key in Azure Key Vault used to encrypt Fabric workspace data.
+COE|Center of Excellence: internal team that guides and supports analytics users.
+CSP|Cloud Solution Provider: Microsoft partner that sells and manages cloud subscriptions.
+CU|Capacity unit: measure of Fabric compute power; one Premium v-core equals 8 CUs.
+DLP|Data loss prevention: policies that detect and block sharing of sensitive data.
+EA|Enterprise Agreement: Microsoft volume licensing contract.
+EM SKU|Power BI Premium embedding SKU EM1 to EM3 for embed-for-your-organization.
+F SKU|Microsoft Fabric capacity SKU F2 to F8192 bought through Azure.
+Fabric administrator|Admin role that manages Fabric and Power BI tenant settings.
+GCC|Government Community Cloud: US government Microsoft cloud environment.
+LOD|Level of detail: Tableau expressions that set aggregation grain; mapped to DAX CALCULATE patterns.
+Multi-Geo|Fabric feature to place capacities and their data in regions other than the tenant home region.
+OLS|Object-level security: hides tables or columns from viewers.
+P SKU|Power BI Premium per-capacity SKU P1 to P5, being retired.
+PAYG|Pay-as-you-go: billing by usage without commitment.
+PPU|Premium Per User: per-user license that unlocks most Premium features.
+Pro|Power BI Pro: per-user license to publish and share content.
+Purview|Microsoft Purview: compliance suite that hosts sensitivity labels and audit search.
+QVD|Qlik data file format used to store tables.
+RDL|Report Definition Language: XML format of SSRS and paginated reports.
+RLS|Row-level security: DAX filters that limit rows per user.
+SIEM|Security information and event management tool.
+SSRS|SQL Server Reporting Services: on-premises paginated report server.
+TLS|Transport Layer Security: protocol that encrypts data in transit.
+TMDL|Tabular Model Definition Language: text format for semantic models, used to script OLS roles.
+UPN|User principal name: sign-in name of a user, often like an email address.
+Workspace type|Setting that ties a workspace to a license and capacity type; formerly called license mode.

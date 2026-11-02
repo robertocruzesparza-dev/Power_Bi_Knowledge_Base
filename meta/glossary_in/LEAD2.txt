@@ -1,0 +1,15 @@
+CSF|HITRUST Common Security Framework
+HITRUST|Organization and framework for security and privacy assurance certification
+MIT|MIT open-source software license
+VS|Visual Studio, as used in the file that mentions it
+PQT|Label as it appears in a source table; expansion not verified
+DD|Label as it appears in a source table; expansion not verified
+CDM|Common Data Model, a shared data schema standard
+DA|Label as it appears in a source; expansion not verified
+ADP|Vendor label in a connector list; expansion not verified
+BQE|Vendor label in a connector list; expansion not verified
+CCH|Vendor label in a connector list; expansion not verified
+ORK|Label in a connector list; expansion not verified
+SIS|Label in a connector list; expansion not verified
+DE|German locale country code, as in de-DE
+IEEE|Institute of Electrical and Electronics Engineers, publisher of floating-point standards

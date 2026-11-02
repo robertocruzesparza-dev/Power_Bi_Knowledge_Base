@@ -1,0 +1,8 @@
+mirroring|Fabric mirroring and open mirroring (used fabric/onelake instead)
+shortcut|OneLake shortcuts (used onelake instead)
+throttling|Capacity throttling and smoothing (used capacity/limits instead)
+export|Report export formats (used paginated-report/limits instead)
+subscription|Email subscriptions (used service/paginated-report instead)
+endorsement|Endorsement badges (used governance instead)
+fabric-capacity|Fabric F SKU specifics (used capacity instead)
+decommission|Retired features such as datamarts (used deprecated instead)

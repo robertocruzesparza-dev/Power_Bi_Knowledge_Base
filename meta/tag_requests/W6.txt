@@ -1,0 +1,5 @@
+qlik: Qlik-related migration content
+excel-migration: Excel to Power BI migration (nearest used: excel, migration)
+purview: Microsoft Purview specific (nearest used: sensitivity-label)
+service-principal: service principal and app identity topics (nearest used: security, rest-api)
+multi-geo: Multi-Geo and data residency (nearest used: compliance, capacity)

@@ -1,0 +1,12 @@
+data_sources|SAP HANA, SAP BW, Spark, Web, Oracle connector pages not in capability details (slug lookups failed)|Learn pages use unknown slugs; only about 120 connector pages parsed|Open each connector page via https://learn.microsoft.com/en-us/power-query/connectors/ and add auth plus DirectQuery lines
+data_sources|Partner connectors (about 70) have no Learn page, so DirectQuery and auth are unknown|Partner-documented|Check each partner site
+data_sources|Gateway troubleshooting (common errors, logs, monitoring, performance counters) not covered|Budget|Learn data-integration/gateway troubleshooting pages
+data_sources|Data source and SSO setup steps for Kerberos, SAML, Entra SSO not detailed|Budget|Learn gateway SSO articles
+data_sources|MySQL DirectQuery conflict: DirectQuery article discusses MySQL, connector page lists Import only|Conflicting official pages|Test in current Desktop
+power_query_m|Query diagnostics, step folding examples, Power Query Online dataflow differences not covered|Budget|Learn power-query/query-diagnostics and folding examples
+power_query_m|Cube, accessing-data, error-handling and expression function categories not cataloged|Budget|Learn powerquery-m function reference
+power_query_m|M reference pages for case sensitivity, operators and type system not re-read|Budget|Learn powerquery-m/m-spec-lexical-structure
+release_roadmap|Official Power BI September 2026 feature summary not found|Search returned only Message Center mirror|Check Power BI blog and Fabric community update blog
+release_roadmap|Fabric roadmap site item contents not extracted (JavaScript app)|Fetch returns shell only|Browse roadmap.fabric.microsoft.com or use its export
+release_roadmap|Monthly history before October 2024 and December 2025 omission not explained|Out of 24-month scope|Archive page earlier sections
+release_roadmap|Per-release gateway feature lists not extracted|Budget|Gateway monthly updates page

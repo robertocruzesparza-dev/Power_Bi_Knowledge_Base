@@ -1,0 +1,13 @@
+embedding_apis|Exact Power BI REST API rate limit numbers|Learn page states only 429 and Retry-After, no quotas|Power BI REST API reference throttling notes, Chris Webb or Data Goblins posts
+embedding_apis|JavaScript client package version, event list, and settings names|Only landing page read, not the API reference|microsoft.github.io/PowerBI-JavaScript and npm powerbi-client
+embedding_apis|Custom visuals API version table and AppSource publish steps|Only setup and certification snippets read|Learn: visual-api, office-store, power-bi-custom-visuals
+embedding_apis|Service principal profiles and multitenancy design|embed-multi-tenancy page not read|Learn: embed-multi-tenancy, embed-service-principal-certificate
+embedding_apis|Fabric REST API endpoint catalog (core, items, git, deployment pipelines)|Scope was Power BI REST; Fabric API groups not enumerated|Learn: rest/api/fabric
+devops_lifecycle|ALM Toolkit workflow, versions, Direct Lake support|Only one official paragraph; tool site not read|alm-toolkit.com, SQLBI, Tabular Editor docs
+devops_lifecycle|Deployment pipelines: item properties not copied, deployment plan preview details, new UI|Not fetched in full|Learn: understand-the-deployment-process, deployment-plan-overview
+devops_lifecycle|Git integration: conflict resolution, branching strategies, granular commit preview|Only the process page read|Learn: conflict-resolution, manage-branches, granular-compare
+devops_lifecycle|Tabular Editor CLI and Best Practice Analyzer in CI pipelines; Azure DevOps YAML examples|Community/expert sources not consulted|Tabular Editor docs, SQLBI, Data Goblins
+devops_lifecycle|Variable libraries in CI/CD for Power BI|Mentioned only in passing|Learn: variable-library-overview
+patterns_recipes|RLS vs OLS vs workspace isolation under Direct Lake|Only the overview page read|Learn: direct-lake-security-integration, direct-lake-fixed-identity
+patterns_recipes|Pricing-based license break-even (Pro vs F64)|Prices intentionally excluded; volatile|Power BI pricing page, Azure pricing calculator
+patterns_recipes|Expert opinion on storage mode and dataflow choices|Official docs only|SQLBI, RADACAD, Guy in a Cube

@@ -1,0 +1,3 @@
+service-principal|Authentication with service principals is a recurring topic across embedding, admin, and DevOps; nearest used: security
+fabric-cicd|Tool-specific tag for Python deployment library and Fabric CLI; nearest used: devops
+custom-visual-sdk|Visuals SDK topics; nearest used: custom-visual plus sdk

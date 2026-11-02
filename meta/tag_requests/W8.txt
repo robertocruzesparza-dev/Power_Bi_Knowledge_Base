@@ -1,0 +1,4 @@
+data-agent|Fabric data agents (used fabric and copilot instead)
+alm-toolkit|ALM Toolkit and Bravo (used ecosystem and devops instead)
+power-apps|Power Apps visual (used ecosystem and automation instead)
+sharepoint|SharePoint Online embedding (used ecosystem and embedding instead)

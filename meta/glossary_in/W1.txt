@@ -1,0 +1,43 @@
+Power BI|Microsoft business analytics platform; a core workload of Microsoft Fabric.
+Power BI Desktop|Free Windows app for connecting, modeling and building reports.
+Power BI service|Cloud site (app.powerbi.com) for publishing, sharing, refresh and collaboration.
+Semantic model|Tables, relationships, measures and security that reports use; formerly dataset.
+Dataset|Former name of semantic model.
+Workspace|Container for reports, models and other items with roles Admin, Member, Contributor, Viewer.
+My workspace|Personal workspace of each user.
+Capacity|Dedicated compute pool a workspace can run on.
+SKU|Stock-keeping unit; a capacity size such as F64.
+CU|Capacity unit; measure of compute power of a Fabric SKU.
+F SKU|Fabric capacity bought in Azure, sizes F2 to F8192.
+P SKU|Power BI Premium per-capacity SKU P1 to P5; being retired at agreement end.
+EM SKU|Power BI Embedded SKU for embedding in Microsoft 365 apps; supports only Power BI items.
+A SKU|Power BI Embedded SKU bought in Azure; supports only Power BI items.
+PPU|Premium Per User license: most Premium features per user, no Fabric capacity.
+Pro|Power BI Pro per-user license for publishing and sharing.
+Fabric (Free)|Free per-user license auto-assigned at first Fabric sign-in.
+OneLake|Fabric's single logical data lake built on ADLS Gen2.
+ADLS|Azure Data Lake Storage.
+SaaS|Software as a service.
+Direct Lake|Storage mode that queries OneLake data without import.
+PBIX|Power BI Desktop report file containing report, model and data.
+PBIT|Power BI template file: report and model definitions without data.
+PBIP|Power BI Project: folder of text files plus a pointer .pbip file.
+PBIR|Power BI enhanced report format: report stored as many small JSON files.
+PBIR-Legacy|Older single-file report.json report format.
+TMDL|Tabular Model Definition Language: text format for semantic models.
+TOM|Tabular Object Model client library.
+DAX|Data Analysis Expressions, the formula and query language of the model.
+DAX query view|Desktop and web view for running DAX queries with EVALUATE.
+TMDL view|Desktop view for scripting model objects as TMDL code.
+Report Server|Power BI Report Server: on-premises report host.
+RDL|Report Definition Language, file format of paginated reports.
+Paginated report|Pixel-perfect, printable report built in Report Builder.
+WebView2|Microsoft Edge engine component that Desktop needs.
+MSI|Windows Installer package format.
+KeyTips|Letter hints shown over ribbon commands when Alt is pressed.
+Preview feature|Feature in test, toggled in Options; may change; limited support.
+Live connection|Report connected to a published semantic model without copying data.
+RLS|Row-level security.
+CI/CD|Continuous integration and continuous delivery.
+Entra|Microsoft Entra ID, the identity directory that defines a tenant.
+Tenant|The organization's Microsoft Entra directory where Fabric and Power BI run.

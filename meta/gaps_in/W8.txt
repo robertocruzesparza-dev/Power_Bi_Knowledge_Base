@@ -1,0 +1,10 @@
+ai_features|Copilot supported region list and per-surface region gaps (two pages list different regions)|Region lists conflict between overview and prep-data pages|learn.microsoft.com/fabric/admin/region-availability and Copilot FAQ
+ai_features|Q&A retirement details and Copilot replacement guidance|Deprecating Power BI Q&A page not fetched|go.microsoft.com/fwlink/?LinkId=2379220
+ai_features|Copilot FAQ, DAX query Copilot, web modeling, measure descriptions, subscription summaries not given own files|Time/budget|learn.microsoft.com/power-bi/create-reports/copilot-faq-fabric and dax/dax-copilot
+ecosystem_tools|Excel cube functions (CUBEVALUE etc) over Power BI models|No page verified|Microsoft Support Excel cube functions plus Chris Webb / SQLBI posts
+ecosystem_tools|DAX Studio current version, license, requirements|Project pages only partly readable|daxstudio.org/docs/license, requirements, GitHub releases
+ecosystem_tools|Tabular Editor 3 prices|Pricing page showed no numbers|tabulareditor.com/pricing live
+ecosystem_tools|Power Automate flows triggering refresh, Power Apps writeback patterns, Metadata Translator, Teams notifications|Not covered|Power Automate docs for Power BI connector
+troubleshooting|DAX syntax and calculation error catalog|Not researched|Microsoft DAX docs, SQLBI, community
+troubleshooting|Known issues list (Fabric support site) and monthly known issues|Not fetched|support.fabric.microsoft.com known issues
+troubleshooting|Paginated report, Report Server and mobile errors; tile error catalog full list|Not covered|refresh-troubleshooting-tile-errors page

@@ -1,0 +1,62 @@
+Semantic model|The data model behind Power BI reports (tables, relationships, measures, roles); formerly called a dataset.
+Build permission|Permission on a semantic model to create new content on it, export underlying data, and use XMLA or Analyze in Excel.
+RLS|Row-level security: rules that limit which rows a user can see.
+OLS|Object-level security: rules that hide tables or columns from users.
+XMLA|XML for Analysis: the protocol for reading and writing Power BI Premium or Fabric models with external tools.
+DMV|Dynamic Management View: a query that reads model metadata and storage statistics.
+TMSL|Tabular Model Scripting Language: JSON commands to create or process tabular models.
+TOM|Tabular Object Model: a .NET library to manage tabular models in code.
+PPU|Premium Per User: a per-user license with most Premium features, without a Fabric capacity.
+SKU|Stock-keeping unit: a purchasable capacity size such as F64 or P1.
+CU|Capacity unit: the measure of compute power for a Fabric capacity.
+F SKU|Fabric capacity SKU bought through Azure (F2 to F8192).
+P SKU|Power BI Premium per-capacity SKU; being retired.
+EM/A SKU|Power BI Embedded SKUs, not part of the P SKU retirement.
+EA|Enterprise Agreement: a Microsoft volume licensing contract.
+Framing|Direct Lake refresh step that points the model at the latest Delta files without copying data.
+Transcoding|Direct Lake loading of a column from Parquet into memory on first use.
+Direct Lake|Semantic model storage mode that loads Delta table columns from OneLake into VertiPaq memory.
+DirectLakeBehavior|Model property for Direct Lake on SQL: Automatic, DirectLakeOnly, or DirectQueryOnly.
+Fallback|Direct Lake on SQL switching a query to DirectQuery against the SQL analytics endpoint.
+Delta|Open table format of Parquet files plus a transaction log, used by Fabric.
+Parquet|Columnar file format underlying Delta tables.
+V-Order|Fabric write-time Parquet optimization that speeds reads.
+OneLake|The single tenant-wide data lake in Fabric.
+Shortcut|OneLake pointer to data in another location, with no copy.
+Mirroring|Fabric feature that replicates an external database or catalog into OneLake.
+Open mirroring|Mirroring where your own app writes change data to a landing zone.
+Lakehouse|Fabric item combining files and Delta tables, worked on with Spark and read by SQL.
+Warehouse|Fabric relational store built with T-SQL and multi-table transactions.
+SQL analytics endpoint|Read-only T-SQL surface over lakehouse or mirrored Delta tables.
+ADLS Gen2|Azure Data Lake Storage Gen2, the storage service under OneLake.
+BCDR|Business continuity and disaster recovery.
+Bursting|Fabric running work above the SKU compute for a short time.
+Smoothing|Fabric spreading consumed compute over later timepoints.
+Throttling|Fabric delaying or rejecting new operations when future capacity is used up.
+Timepoint|A 30-second slice of capacity time.
+Dataflow Gen1|Legacy Power BI dataflows in Power BI workspaces.
+Dataflow Gen2|Fabric Power Query dataflows with destinations and pipeline support.
+CI/CD|Continuous integration and continuous delivery.
+Enhanced compute engine|Gen1 dataflow SQL cache engine for Premium A3/P1 and above.
+Fast copy|Dataflow Gen2 parallel ingestion mode for large data.
+Datamart|Retired Power BI self-service managed database; replaced by Fabric warehouse.
+Endorsement|Promoted, Certified, or Master data badge on an item.
+Large semantic model storage format|Setting that lets Import models exceed 1 GB on paid capacity.
+Enhanced refresh|REST API refresh mode with table, partition, batch, and cancel control.
+Paginated report|Fixed-layout, print-ready report built on RDL.
+RDL|Report Definition Language: the XML format of paginated reports.
+SSRS|SQL Server Reporting Services.
+Report Builder|Power BI Report Builder: free desktop authoring tool for paginated reports.
+Tablix|Report Builder region type that combines table, matrix, and list.
+PBIRS|Power BI Report Server: on-premises report server.
+SSO|Single sign-on.
+B2B|Business-to-business guest user in Microsoft Entra.
+MHTML|Web archive file format.
+PDF/UA|Accessible PDF standard.
+SSDT|SQL Server Data Tools.
+AAS|Azure Analysis Services.
+ETL|Extract, transform, load.
+KQL|Kusto Query Language.
+SaaS|Software as a service.
+ACID|Atomicity, consistency, isolation, durability: transaction guarantees.
+GCS|Google Cloud Storage.

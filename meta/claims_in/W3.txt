@@ -1,0 +1,10 @@
+references/data_modeling/05_direct_lake_guardrails.md|Direct Lake guardrails per SKU (F64: 5,000 files, 1,500M rows, 25 GB memory; F2 to F8: 300M rows, 3 GB)|S611
+05_data_modeling/05_direct_lake.md|Direct Lake on OneLake is recommended for new models and has no DirectQuery fallback; calculated columns are preview|S612
+05_data_modeling/05_storage_modes.md|DirectQuery 1,000,000 row intermediate limit and default 10 connections per source|S622
+06_dax/06_time_intelligence.md|Calendar-based time intelligence is a preview behind Enhanced DAX Time Intelligence|S628
+06_dax/06_user_defined_functions.md|DAX UDFs generally available from June 2026 release; compatibility level 1702 required|S654
+05_data_modeling/05_incremental_refresh_basics.md|Real-time DirectQuery partition requires Premium; compatibility levels 1550 and 1565|S618
+05_data_modeling/05_aggregations.md|Automatic aggregations: Premium or PPU or Embedded; 60 minute training limit; up to 48 refreshes per day|S624
+16_performance/16_capacity_metrics_app.md|Throttling windows 10 minutes, 60 minutes, 24 hours; interactive delay 20 seconds|S673
+16_performance/16_model_size_reduction.md|Shared capacity model size 1 GB statement and 10x compression guidance|S671
+05_data_modeling/05_date_tables_hierarchies.md|Scorecard hierarchies retirement date April 15 2026 (docs warning)|S629

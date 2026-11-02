@@ -1,0 +1,13 @@
+certification_learning|Pre-2026-10-19 skills lists for DP-600 and DP-700, and full DP-700 page read|Study guides show only the post-update list; DP-700 came from a search snippet|Re-fetch study-guides/dp-600 and dp-700 after 2026-10-19; check the Microsoft Learn exam pages
+certification_learning|Official exam prices by country|Exam pages show no price; only a third-party US price (165 USD) found|Microsoft Learn schedule-through-Pearson-VUE flow or the exam pricing page
+certification_learning|Other Fabric or Power Platform exams (for example PL-200, PL-600, AI-related Fabric exams) and Applied Skills|Only PL-300, DP-600, DP-700, DP-900, DP-203 checked|credentials/browse filtered by product Power BI and Fabric
+certification_learning|Guy in a Cube and Fabric Community site details|Site pages did not load (empty page, HTTP 403)|YouTube channel About page; community.fabric.microsoft.com in a browser
+service|Fabric Activator alert details for reports and GA date|Only a snippet of the preview article read|Fabric Activator docs and Fabric roadmap
+service|Semantic model settings pane (preview) menu changes and Power BI Home changes|Only mentioned in passing|What's new in Power BI service pages for 2026
+service|Deployment pipelines, Git, and gateway administration for content delivery|Out of W4 scope; belong to devops and data source domains|15_devops_lifecycle and 03_data_sources
+service|Metrics hub versus Goals naming history|Docs still use metrics in URLs|Power BI blog archive
+report_design|Per-visual property reference (formatting options per visual type)|Only overview and cross-cutting features covered|Individual visual docs and the Report Theme JSON schema on GitHub
+report_design|New card visual and new slicer GA status and migration|Only mentioned in troubleshooting article|Desktop monthly updates 2025 and 2026
+report_design|Cross-report drillthrough workspace requirement|Current doc says same workspace and service only; older articles may differ|desktop-drillthrough article history and a hands-on test
+report_design|Q&A retirement date conflict (December 2026 versus February 2027)|Two official pages disagree|Deprecating Power BI Q&A link (go.microsoft.com/fwlink/?LinkId=2379220) and Power BI blog
+report_design|Translytical task flows, field parameters, visual calculations depth|Only mentioned in overviews|Their own docs; may belong to 17_ai_features or 06_dax

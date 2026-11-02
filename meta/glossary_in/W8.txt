@@ -1,0 +1,43 @@
+ALM|Application lifecycle management: managing models across dev, test and production
+ALM Toolkit|Schema compare and deployment tool for Power BI semantic models
+AAD|Azure Active Directory, now Microsoft Entra ID
+Approved for Copilot|Semantic model flag that removes friction treatment in standalone Copilot
+Anomaly detection|Line chart feature that flags points outside an expected range
+BPA|Best Practice Analyzer: rule checker in Tabular Editor
+Bravo|SQLBI desktop tool for model analysis, DAX formatting, date tables and export
+CU|Capacity unit: Fabric compute billing unit
+DAX Studio|Free tool to write, run and analyze DAX queries
+Decomposition tree|AI visual that breaks a measure down across dimensions
+DLP|Data loss prevention
+Fabric Copilot capacity (FCC)|Capacity designated to collect Copilot billing for a user group
+FQDN|Fully qualified domain name
+GA|Generally available
+HAR|HTTP archive file of browser network traffic
+HCAAT|How Copilot arrived at this: Copilot answer detail view
+IError|Error object returned by the Power BI JavaScript embedding SDK
+Key influencers|AI visual that ranks factors driving a metric
+KQL|Kusto Query Language
+LLM|Large language model
+LSDL|Linguistic schema definition language file storing AI instructions and schemas
+MFA|Multifactor authentication
+ML.NET|Microsoft machine learning library used by AI visuals
+NL2DAX|Natural language to DAX
+NL2KQL|Natural language to KQL
+NL2SQL|Natural language to SQL
+OAuth|Open authorization token protocol
+OLS|Object-level security
+PPU|Premium Per User licence
+Prep data for AI|Power BI tooling for AI data schema, instructions and verified answers
+Q&A|Natural-language question feature, retiring Feb 2027
+RLS|Row-level security
+SPN|Service principal name (Kerberos)
+SSMS|SQL Server Management Studio
+Tabular Editor|Tool to edit Tabular Object Model; TE2 free, TE3 commercial
+TGGAU|Token-Groups-Global-And-Universal Active Directory attribute
+TMDL|Tabular Model Definition Language
+TOM|Tabular Object Model
+UPN|User principal name
+VPAX|VertiPaq Analyzer export file
+VNet|Virtual network
+XMLA|XML for Analysis endpoint
+Verified answer|Author-defined visual returned for trigger phrases in Copilot
