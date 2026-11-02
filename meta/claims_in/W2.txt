@@ -1,0 +1,10 @@
+03_data_sources/03_gateway_types_compared.md|Gateway cluster and source limit is 1,000 data sources; Microsoft supports last six gateway releases|S305
+03_data_sources/03_gateway_types_compared.md|VNet gateway available for P, F and A4+ SKUs; F8 and above recommended|S307
+03_data_sources/03_gateway_install_network_ha.md|Clusters hold up to 10 members; outbound ports 80, 443, 433, 5671-5672, 9350-9354|S309
+03_data_sources/03_gateway_install_network_ha.md|Newest gateway build is September 2026, 3000.334|S313
+03_data_sources/03_import_directquery_support.md|Scheduled refresh 8 per day shared, 48 per day Premium, PPU, Fabric|S318
+03_data_sources/03_connector_lifecycle_changes.md|Legacy service Excel/CSV import: refresh stops July 31, 2026, loading stops August 31, 2026|S336
+22_release_roadmap/22_deprecations_retirements.md|Power BI Q&A deprecated December 2026|S336
+22_release_roadmap/22_deprecations_retirements.md|Desktop March 2026 and older cannot save to OneDrive or SharePoint from October 2026|S335
+03_data_sources/03_privacy_levels.md|July 2026 Desktop firewall partitions setting on by default|S316
+03_data_sources/03_gateway_sso_and_data_sources.md|SSO supported source list (Entra, Kerberos, SAML)|S311

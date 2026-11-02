@@ -1,0 +1,48 @@
+DAX|Data Analysis Expressions, the formula language of Power BI semantic models
+Star schema|Model design with dimension tables for filtering and fact tables for summarizing
+Dimension table|Table of descriptive entities used to filter and group
+Fact table|Table of events or measurements with keys and numeric columns
+Grain|The level of detail one fact table row represents
+Cardinality|Relationship type (one-to-many, many-to-many) or count of distinct values in a column
+Cross-filter direction|Which way a relationship passes filters: single or both
+Regular relationship|Relationship whose one side is guaranteed unique; supports table expansion
+Limited relationship|Many-to-many or cross source group relationship with no guaranteed one side
+Source group|Set of tables from one engine: the Vertipaq cache or one DirectQuery source
+Dual|Table storage mode that acts as Import or DirectQuery per query
+Hybrid table|Table with Import partitions plus one DirectQuery partition
+Composite model|Semantic model mixing storage modes or sources
+Direct Lake|Storage mode reading Delta tables in OneLake into memory on demand
+Framing|Direct Lake refresh that sets a point-in-time view of Delta tables
+Transcoding|On-demand loading of Delta column data into Direct Lake memory
+V-Order|Parquet write optimization that improves compression for Direct Lake
+Aggregation table|Hidden summarized table that answers coarse queries for a detail table
+Calculation group|Table of calculation items that apply a DAX pattern to many measures
+SELECTEDMEASURE|DAX function returning the measure being evaluated inside a calculation item
+Row context|The current row during calculated column or iterator evaluation
+Filter context|The set of filters applied to columns when a measure is evaluated
+Context transition|Conversion of row context into filter context by CALCULATE
+Iterator|DAX function ending in X that evaluates an expression for each row
+VAR|DAX keyword that stores an expression result under a name
+UDF|User-defined function in DAX
+Visual calculation|DAX calculation that runs on a visual's own data
+RangeStart|Reserved Power Query parameter for incremental refresh start
+RangeEnd|Reserved Power Query parameter for incremental refresh end
+Incremental refresh|Refreshing only recent partitions of a table
+Performance Analyzer|Desktop pane that times each visual
+DAX Studio|Free tool for running and tracing DAX queries
+VertiPaq|In-memory columnar engine used by Import and Direct Lake
+VertiPaq Analyzer|Metrics view showing memory use by table and column
+Formula engine|Single-threaded part of query processing that runs DAX logic
+Storage engine|Multi-threaded part that scans compressed column data
+xmSQL|Readable text form of storage engine requests
+Capacity Metrics app|Fabric app showing capacity usage and throttling
+Smoothing|Spreading compute usage over future time windows
+Carryforward|Overage compute debt that burns down over time
+CU|Capacity unit, the compute measure for Fabric capacities
+RLS|Row-level security
+XMLA|XML for Analysis, the endpoint protocol for semantic model tools
+TMDL|Tabular Model Definition Language
+TMSL|Tabular Model Scripting Language
+SKU|Stock keeping unit; a capacity size such as F64
+OLS|Object-level security
+SSO|Single sign-on

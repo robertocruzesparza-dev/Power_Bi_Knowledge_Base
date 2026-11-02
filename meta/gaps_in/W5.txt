@@ -1,0 +1,12 @@
+semantic_models_dataflows|Gen1 dataflow admin settings, linked tables, BYOL storage detail not researched in depth|time budget|Learn power-query/dataflows pages, tenant settings
+semantic_models_dataflows|Semantic model settings pane (preview), query caching, scale-out, automatic aggregations not covered|time budget|Learn power-bi/connect-data and enterprise pages
+semantic_models_dataflows|Dataflow Gen2 pricing and CU consumption rates not captured|volatile pricing page not fetched|Learn fabric/data-factory/pricing-dataflows-gen2
+semantic_models_dataflows|Dataflow Gen2 data destinations and managed settings details|not fetched|Learn dataflow-gen2-data-destinations-and-managed-settings
+paginated_reports|Dynamic (data-driven) subscriptions preview, URL parameters, Report Builder UI walkthrough, RDL element reference not researched|time budget|Learn power-bi-dynamic-report-subscriptions, report-builder-url-parameters
+paginated_reports|SSRS to Power BI migration (RDL migration tool, SSRS 2022 publish) only mentioned|time budget|Learn guidance/migrate-ssrs-reports-to-power-bi
+paginated_reports|Gateway setup for paginated reports and Kerberos SSO steps|not researched|Learn gateway articles
+fabric_onelake|Workload-specific limits (Spark, Real-Time Intelligence, Activator) not covered|scope focus on the Power BI path|Learn fabric/data-engineering, real-time-intelligence
+fabric_onelake|OneLake security roles detail, table maintenance and V-Order guidance|not fetched|Learn onelake/security, fabric/fundamentals/table-maintenance-optimization
+fabric_onelake|F SKU prices, reservation discounts, overage billing rates|volatile, not looked up|Azure Fabric pricing page
+fabric_onelake|Direct Lake security integration and fixed identity setup steps|not fetched|Learn direct-lake-security-integration, direct-lake-fixed-identity
+fabric_onelake|Semantic link and Fabric REST API for semantic models|not covered|Learn python/api/semantic-link-sempy

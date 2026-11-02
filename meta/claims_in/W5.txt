@@ -1,0 +1,12 @@
+09_semantic_models_dataflows/09_semantic_model_refresh.md|Shared capacity allows 8 scheduled refreshes/day; Premium, PPU, Fabric allow 48/day|S1204
+09_semantic_models_dataflows/09_semantic_model_refresh.md|Scheduled refresh disabled after 4 consecutive failures; time-out 2 h shared and 5 h Premium|S1206
+09_semantic_models_dataflows/09_large_semantic_models.md|Default model size limit 1 GB; large format limit equals capacity size or admin maximum|S1201
+09_semantic_models_dataflows/09_datamarts_status.md|Datamarts no longer supported since 2025-11-01; new datamart creation redirects to warehouse since 2025-06-01|S1207
+09_semantic_models_dataflows/09_dataflows_gen1_vs_gen2.md|Dataflow Gen1 is legacy with no new investment; new Gen2 items are CI/CD only since April 2026|S1216
+09_semantic_models_dataflows/09_dataflow_gen2_refresh_limits.md|Gen2 limits: 300 refreshes per 24h (150 non-CI/CD), 8 h per query, 24 h per refresh, 50 queries|S1218
+10_paginated_reports/10_paginated_licensing_capacity.md|Free users view paginated reports only on F64+/P1+ with Viewer role; Pro or PPU needed to publish to other workspaces|S1224
+10_paginated_reports/10_paginated_export_subscriptions.md|Subscription attachment max 25 MB, 60 min execution limit, Run-now limits by tier|S1226
+11_fabric_onelake/11_direct_lake.md|Direct Lake needs Fabric F SKU; guardrails by SKU (F64: 5,000 files, 1,500M rows, 25 GB memory)|S1203
+11_fabric_onelake/11_fabric_capacity_and_licensing.md|P SKUs retired at end of agreement term; 30-day grace, throttle day 31, rejected day 91|S1209
+11_fabric_onelake/11_mirroring.md|Free mirroring storage 1 TB per CU purchased; default retention 1 day for new mirrored databases|S1240
+11_fabric_onelake/11_capacity_throttling.md|Throttle stages: 10 min overage protection, 20 s delay to 60 min, interactive rejection to 24 h|S1242

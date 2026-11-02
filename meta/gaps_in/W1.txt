@@ -1,0 +1,8 @@
+foundations|No expert or community sources (SQLBI, Guy in a Cube, RADACAD) consulted|Budget spent on official pages; all sources tier 1|Search SQLBI and Guy in a Cube for Desktop vs service pitfalls
+desktop|Full list of Options dialog pages not catalogued|Learn has no single page|Read each Options page in Desktop or Learn per area
+desktop|Keyboard shortcuts for DAX query view and TMDL view not found|Not on the shortcut page read|Check DAX query view and TMDL view Learn pages
+desktop|September 2026 Desktop release and current version number not verified|Latest-update page showed August 2026|Check desktop-latest-update and change log
+desktop|Power BI Desktop Bridge details not read|Preview, only in release notes|learn.microsoft.com/power-bi/developer/agentic
+foundations|Power BI mobile apps details and Goals/Scorecards only mentioned|Out of scope depth|Domain 07 and 08
+desktop|Desktop group policy and registry settings beyond update notifications and evaluation settings|Not researched|Implementation planning user tools page
+desktop|Whether Desktop 100 GB PPU model upload and 10 GB upload limit statements reconcile|S017 vs S018 differ|Fabric capacity limits pages

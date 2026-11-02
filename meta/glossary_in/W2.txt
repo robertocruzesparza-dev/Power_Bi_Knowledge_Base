@@ -1,0 +1,24 @@
+Applied steps|The ordered list of transformation steps shown in the Power Query query settings pane
+ADBC|Arrow Database Connectivity, a driver standard used by newer Snowflake and Impala connectors
+Advanced Editor|Power Query window that shows and edits the full M script of a query
+CRUD|Create, read, update, delete operations in an API
+Data Privacy Firewall|Power Query component that stops data moving between sources of incompatible privacy levels
+DirectQuery|Storage mode that sends a query to the source for each visual instead of importing data
+Dataflow Gen2|Fabric Power Query Online data preparation item
+Fast Combine|Option to ignore privacy levels when combining data
+Formula.Firewall|Error raised when the Data Privacy Firewall blocks a query
+Gateway cluster|Group of up to 10 on-premises gateway installations for high availability
+Kerberos constrained delegation|Active Directory single sign-on method used by the gateway
+M|Power Query formula language
+MCP|Model Context Protocol, a standard for connecting AI tools to data and services
+Native query|A query written in the source's own language, such as SQL, run via Value.NativeQuery
+ODBC|Open Database Connectivity, a driver standard for database access
+Personal mode gateway|Single-user gateway that supports Import refresh for Power BI only
+Privacy level|Classification of a source as None, Private, Organizational or Public
+Query folding|Translation of M steps into a source query so the source does the work
+SAML|Security Assertion Markup Language, a single sign-on standard
+SCOM|System Center Operations Manager
+SSO|Single sign-on
+TOM|Tabular Object Model
+VNet data gateway|Microsoft-managed gateway injected into an Azure virtual network
+Workspace identity|Fabric workspace-level identity used for authentication

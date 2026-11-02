@@ -1,0 +1,11 @@
+08_service/08_scheduled_refresh.md|Pro allows 8 scheduled refreshes per day; PPU, Premium, and Fabric capacity allow 48|S922
+08_service/08_scheduled_refresh.md|Shared capacity refresh must finish within 2 hours; Premium maximum is 5 hours|S923
+08_service/08_scheduled_refresh.md|Schedule deactivates after four consecutive failures; pauses after two months of inactivity|S922
+08_service/08_workspace_apps.md|One workspace app per workspace; 25 audiences; 10,000 users and groups; 1,000 per audience; 200 dashboards|S924
+08_service/08_subscriptions.md|Limit of 24 subscriptions per Power BI report or dashboard; instant email caps 10/15/20/25 per hour|S930
+08_service/08_data_alerts.md|Up to 250 alerts across all models; alerts only on gauge, KPI, and card tiles|S933
+08_service/08_license_requirements.md|Free users can view content only on Premium or Fabric F64 or larger capacity|S957
+08_service/08_workspaces.md|Workspace limit of 1,000 items; Pro user limit of 1,000 workspaces|S950
+07_report_design/07_visual_catalog.md|Q&A visual deprecation December 2026 (overview) versus February 2027 (Q&A pages)|S963
+21_certification_learning/21_pl300_exam.md|PL-300 skills as of 2026-04-20; 100 minutes; passing score 700; 12-month renewal|S901
+21_certification_learning/21_dp600_exam.md|DP-600 English update on 2026-10-19; weights 25-30, 45-50, 25-30|S905

@@ -1,0 +1,8 @@
+subscription|Email subscriptions to reports and dashboards (used `service` and `dashboard` instead)
+alert|Data alerts and Activator alerts (used `monitoring` and `automation` instead)
+endorsement|Promoted, certified, master data badges (used `governance` instead)
+lineage|Lineage view and impact analysis (used `governance` instead)
+scorecard|Scorecards and goals (used `dashboard` and `monitoring` instead)
+org-app|Org apps as Fabric items (used `app` instead)
+exam|Specific Microsoft exams such as PL-300 and DP-600 (used `certification` instead)
+filter|Filters pane and slicer behavior (used `interaction` instead)

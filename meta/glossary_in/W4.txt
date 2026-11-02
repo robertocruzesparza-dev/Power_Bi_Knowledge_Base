@@ -1,0 +1,58 @@
+ADFS|Active Directory Federation Services, an identity sign-in method not supported for on-premises SharePoint refresh.
+B2B|Business-to-business guest access through Microsoft Entra, used to invite external users.
+BI|Business intelligence.
+Build permission|Semantic model permission that lets a user create new content on the model and use it outside Power BI (called explore in the REST API).
+DAX|Data Analysis Expressions, the formula language for Power BI models.
+DIN|A font family used by Power BI theme defaults for callouts and titles.
+DOCX|Word document file format, an attachment type for paginated report subscriptions.
+DP|Prefix of Microsoft data platform exam codes such as DP-600 and DP-700.
+ESRI|Esri, the maker of ArcGIS map visuals that are unsupported in subscriptions.
+F32|Fabric capacity SKU size 32; free users cannot view content on it without a paid license.
+F64|Fabric capacity SKU size 64; the smallest size on which free users can view Power BI content.
+GB|Gigabyte.
+HTTP|Hypertext Transfer Protocol.
+IQ|Intelligence; as in Microsoft Fabric IQ, a Fabric workload area for shared business concepts.
+ISO|International Organization for Standardization; here the ISO date format used in theme files.
+KB|Knowledge base.
+KPI|Key performance indicator, a visual that shows progress to a target.
+KQL|Kusto Query Language used in Fabric Real-Time Intelligence and DP-600 and DP-700.
+M365|Microsoft 365.
+MB|Megabyte.
+MFA|Multifactor authentication.
+ML|Machine learning.
+NTLM|NT LAN Manager, a Windows authentication protocol supported for on-premises SharePoint refresh.
+OLS|Object-level security that hides tables and columns from users.
+PBIP|Power BI Desktop project file format.
+PBIR|Power BI enhanced report format, a folder-based report definition.
+PBIX|Power BI Desktop file format.
+PL|Prefix of Microsoft Power Platform exam codes such as PL-300.
+PL-300|Exam code for Microsoft Certified: Power BI Data Analyst Associate.
+DP-600|Exam code for Microsoft Certified: Fabric Analytics Engineer Associate.
+DP-700|Exam code for Microsoft Certified: Fabric Data Engineer Associate.
+DP-900|Exam code for Microsoft Certified: Azure Data Fundamentals.
+PPTX|PowerPoint file format.
+PPU|Premium per user, a per-user license with most Premium capacity features.
+RADACAD|Reza Rad's Power BI training and consulting site.
+REST|Representational state transfer, the style of the Power BI REST API.
+RLS|Row-level security that limits which rows a user can read in a model.
+SDK|Software development kit; the Power BI visuals SDK builds custom visuals.
+SKU|Stock keeping unit, a purchasable capacity size.
+SSAS|SQL Server Analysis Services.
+SSO|Single sign-on.
+SQLBI|Marco Russo and Alberto Ferrari's DAX and modeling site.
+TMSL|Tabular Model Scripting Language used to script model operations such as refresh.
+UI|User interface.
+VUE|Pearson VUE, the exam delivery provider (written Pearson VUE).
+WCAG|Web Content Accessibility Guidelines.
+XLSX|Excel workbook file format.
+XMLA|XML for Analysis, the protocol behind the XMLA endpoint for tools and programmatic refresh.
+Workspace app|App built from one workspace with audiences and navigation; formerly called a Power BI app.
+Org app|Fabric item type that packages items from a workspace; several allowed per workspace.
+Audience|A group of users who see a chosen set of items in an app.
+Endorsement|Promoted, Certified, or Master data badge applied to an item.
+Shared view|A filtered report link that expires 180 days after last use.
+Scorecard|Collection of goals tracked in the Power BI service.
+Tooltip page|A report page sized as a tooltip and shown on hover.
+Drillthrough|Navigation from one report page to another filtered to a selected item.
+Bookmark|Saved state of a report page including filters, visibility, and drill location.
+Theme|JSON or built-in set of colors, fonts, and visual defaults applied to a report.

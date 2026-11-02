@@ -1,0 +1,10 @@
+15_devops_lifecycle/15_deployment_pipelines.md|Pipelines have 2 to 10 stages; default is 3|S1802
+15_devops_lifecycle/15_deployment_pipelines.md|Semantic models not upgraded to enhanced metadata unsupported in pipelines from 2026-02-12|S1802
+15_devops_lifecycle/15_git_integration.md|Workspace limit 1,000 items; file size 25 MB; commit limits 25 MB (ADO SP), 125 MB (ADO user), 50 MB (GitHub)|S1819
+15_devops_lifecycle/15_git_integration.md|From 2026-12-01 users without read-write permission on items cannot use Git integration|S1819
+15_devops_lifecycle/15_pbir_format.md|PBIR limits: 1,000 pages, 1,000 visuals per page, 300 MB report files; PBIR is GA and default|S1806
+14_embedding_apis/14_embed_tokens.md|GenerateToken V2 limits: 50 reports, 50 datasets, 50 target workspaces|S1809
+14_embedding_apis/14_embed_service_principal_capacity.md|Free-license viewers only on P SKUs or F64 and larger; A SKUs and smaller F need Pro or PPU|S1813
+23_patterns_recipes/23_license_choice.md|Pro workspace 1 GB model and 8 refreshes per day; PPU 100 GB and 48 per day|S1831
+23_patterns_recipes/23_direct_lake_guardrails.md|Direct Lake guardrail table per SKU (rows, files, model size, memory)|S1827
+14_embedding_apis/14_rest_api_endpoint_catalog.md|Real-time streaming datasets retire 2027-10-31 (new creation stopped 2024-10-31)|S1843

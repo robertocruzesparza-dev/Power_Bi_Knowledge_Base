@@ -1,0 +1,10 @@
+13_licensing_pricing/13_pricing_reference.md|Power BI Pro is 14.00 USD and PPU is 24.00 USD per user per month, billed yearly (en-US page)|S1503
+13_licensing_pricing/13_pricing_reference.md|Fabric F SKU pay-as-you-go is 0.18 USD per CU-hour in West US 2 (UK/Japan/Australia 0.21, West Europe 0.22, Brazil South 0.28)|S1505
+13_licensing_pricing/13_pricing_reference.md|Fabric one-year reservation 938 USD per CU, three-year 2,814 USD per CU; about 40.5 percent saving|S1505
+13_licensing_pricing/13_embedded_skus.md|A1 to A6 hourly USD 1.0081, 2.0081, 4.0242, 8.0565, 16.121, 32.2506|S1506
+13_licensing_pricing/13_premium_p_sku_retirement.md|P SKUs retire at end of each agreement term; grace 30 days, throttled days 31-90, blocked from day 91|S1509
+13_licensing_pricing/13_who_needs_which_license.md|F64 or larger (and P) lets Free users with Viewer role view Power BI content; smaller F, A, EM need Pro or PPU|S1501
+13_licensing_pricing/13_limits_and_quotas.md|Pro 1 GB model/8 refreshes per day; PPU 100 GB/48 refreshes; F64 max memory 25 GB|S1508
+13_licensing_pricing/13_fabric_trial.md|Fabric trial lasts 60 days, F4 or F64, 1 TB OneLake, 7-day recovery after expiry|S1511
+12_admin_governance_security/12_audit_activity_logs.md|Purview Audit Standard retention is 180 days; Power BI records under Premium also 180 days by default|S1523
+12_admin_governance_security/12_tenant_settings.md|Tenant settings path is OneLake catalog > Govern > Configurations > Tenant settings; item recovery 3 to 90 days|S1525

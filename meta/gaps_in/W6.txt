@@ -1,0 +1,15 @@
+admin_governance_security|Compliance certification list (ISO, SOC, HIPAA etc.) not captured|Trust Center pages are dynamic; no stable doc fetched|Microsoft Trust Center and Service Trust Portal; learn.microsoft.com/compliance/regulatory/offering-home
+admin_governance_security|Activity Events API throttling limit not verified|Not in fetched snippets|learn.microsoft.com/rest/api/power-bi/admin/get-activity-events
+admin_governance_security|OLS behavior when a user is in multiple roles with conflicting column permissions|Page read did not say|learn.microsoft.com/analysis-services/tabular-models/object-level-security
+admin_governance_security|Fabric region availability and Fabric-specific item-level security (OneLake security, workspace roles, item permissions)|Out of assigned scope depth; only RLS/OLS covered|learn.microsoft.com/fabric/security/security-overview and permission-model pages
+admin_governance_security|Private Link, workspace network rules, DLP and Defender for Cloud Apps session policies|Only listed as tenant settings|learn.microsoft.com/fabric/security/security-private-links-overview
+admin_governance_security|Sensitivity label downstream inheritance and change-enforcement details, bulk label APIs|Only overview snippets read|learn.microsoft.com/fabric/governance/service-security-sensitivity-label-downstream-inheritance
+admin_governance_security|Power BI blog primary announcements (HTTP 403 on fetch)|Blog blocked WebFetch|powerbi.microsoft.com/blog and Fabric blog via browser
+licensing_pricing|Meaning of new On-Demand meters dated 2026-10-01 in the Azure retail price API|No doc found|Fabric blog, Azure pricing page, release notes
+licensing_pricing|Currency-localized prices (EUR, GBP) and sovereign cloud prices|Retail API returned no EUR rows for tested regions|azure.microsoft.com pricing calculator
+licensing_pricing|Final P SKU end date for EA customers|No fixed date on official pages; one consultancy cites 2028-01-01 unverified|Microsoft account team; licensing news page (blocked, returned error)
+licensing_pricing|Fabric capacity smoothing, throttling and surge protection numbers|Belongs to performance domain|learn.microsoft.com/fabric/enterprise/throttling and surge-protection
+licensing_pricing|Education, nonprofit and government pricing|Only mentioned as available|Microsoft academic and nonprofit pricing pages
+migration|Official Microsoft Tableau, Qlik, Cognos concept maps|None found; used consultancies and labeled inference|Microsoft partner migration accelerators; Power BI migration series stage articles (not fetched individually)
+migration|MicroStrategy, Business Objects, SAP BO, Looker migration|Not researched|Search vendor and Microsoft Fabric community sources
+migration|Unsupported SSRS features in Power BI paginated reports|Not fetched|learn.microsoft.com/power-bi/paginated-reports/paginated-reports-faq

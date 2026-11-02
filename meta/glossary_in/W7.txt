@@ -1,0 +1,37 @@
+Embed token|Short-lived credential created by a back end so a browser can open specific Power BI items in the app-owns-data model.
+App owns data|Embedding model where the app authenticates for all users; viewers need no Power BI license. Also called embed for your customers.
+User owns data|Embedding model where each user signs in with Microsoft Entra ID. Also called embed for your organization.
+Service principal|Identity of a Microsoft Entra app used for unattended access to Power BI APIs.
+Master user|A normal licensed account used by an app to call Power BI non-interactively.
+XMLA|XML for Analysis, the protocol Analysis Services tools use; exposed by Power BI capacities as the XMLA endpoint.
+TMSL|Tabular Model Scripting Language, JSON commands for tabular models.
+TOM|Tabular Object Model, the .NET object model for tabular metadata.
+TMDL|Tabular Model Definition Language, an indented text format for semantic models.
+PBIP|Power BI Project, a folder of text files that stores a report and semantic model.
+PBIR|Power BI enhanced report format, one JSON file per page, visual, and bookmark.
+PBIR-Legacy|Older report format that stores the whole report in report.json.
+PBIX|Single binary Power BI Desktop file.
+Pairing|Link between an item in one pipeline stage and the same item in the adjacent stage.
+Autobinding|Pipeline behavior that points a deployed report at the paired model in the target stage.
+Deployment rule|Pipeline setting that swaps a data source, parameter, or default lakehouse in a target stage.
+CI/CD|Continuous integration and continuous delivery.
+ALM|Application lifecycle management.
+ALM Toolkit|Open-source schema compare tool for Power BI semantic models.
+fabric-cicd|Microsoft-backed open-source Python library that deploys Fabric items from source control.
+Fabric CLI|Open-source command line (fab) for Fabric items.
+pbiviz|Command line tool and package format for building Power BI custom visuals.
+RLS|Row-level security.
+OLS|Object-level security.
+SSO|Single sign-on.
+UPN|User principal name, the sign-in identifier of an account.
+B2B|Business-to-business guest access in Microsoft Entra ID.
+MSAL|Microsoft Authentication Library.
+SKU|Stock keeping unit; here a capacity size such as A1, EM1, P1, or F64.
+PPU|Premium Per User license.
+Direct Lake|Table storage mode that loads Delta tables from OneLake into memory on demand.
+Framing|Direct Lake refresh step that updates references to the latest Delta files.
+Hybrid table|Import table with a DirectQuery partition for the newest data.
+Dual|Table storage mode that acts as Import or DirectQuery per query.
+Composite model|Semantic model with tables in more than one storage mode.
+GCC|Government Community Cloud.
+DMV|Dynamic management view.

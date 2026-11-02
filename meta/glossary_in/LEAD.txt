@@ -1,0 +1,73 @@
+AD|Active Directory
+AM|Ante meridiem, time before noon
+ARM|Azure Resource Manager
+AWS|Amazon Web Services
+BMP|Bitmap image format
+BOM|Byte order mark, a marker at the start of a text file
+CD|Continuous deployment
+CI|Continuous integration
+CLI|Command-line interface
+CPU|Central processing unit
+DB|Database
+DQ|DirectQuery storage mode
+DW|Data warehouse
+EU|European Union
+EUR|Euro currency code
+FAQ|Frequently asked questions
+FE|Formula engine, the DAX query engine part that runs single-threaded logic
+SE|Storage engine, the part that scans data fast and in parallel
+GIF|Graphics Interchange Format image
+GMT|Greenwich Mean Time
+GUID|Globally unique identifier
+HANA|SAP HANA in-memory database
+HTTPS|Secure Hypertext Transfer Protocol
+IAM|Identity and access management
+IBM|International Business Machines
+IDE|Integrated development environment
+IP|Internet Protocol, as in IP address
+IT|Information technology
+JPEG|Joint Photographic Experts Group image format
+JS|JavaScript
+LLAP|Live Long and Process, Hive query daemon
+MDX|Multidimensional Expressions query language
+MIME|Multipurpose Internet Mail Extensions
+MM|Month in a date format string
+NET|Microsoft .NET framework
+NT|Windows NT, as in NT account
+PNG|Portable Network Graphics image
+PY|Python
+RAM|Random-access memory
+RFC|Request for Comments, an internet standards document
+SAP|SAP SE enterprise software vendor
+SDMX|Statistical Data and Metadata eXchange
+SSD|Solid-state drive
+SSL|Secure Sockets Layer
+TB|Terabyte
+TCP|Transmission Control Protocol
+TIBCO|TIBCO Software, vendor of data products
+TIFF|Tagged Image File Format
+UAE|United Arab Emirates
+URI|Uniform resource identifier
+USA|United States of America
+USD|United States dollar
+UTC|Coordinated Universal Time
+VM|Virtual machine
+YTD|Year to date
+DLL|Dynamic link library
+HSM|Hardware security module
+IDE|Integrated development environment
+SPO|SharePoint Online
+SR|Service request
+EMF|Enhanced Metafile image format
+EM|Name of a Power BI Premium capacity SKU series (EM SKUs); see licensing domain for status
+SM|Semantic model, as abbreviated in some connector tables
+SR|Spectral residual, as in SR-CNN anomaly detection named by the cited source
+UA|Universal Accessibility, as in the PDF/UA accessible PDF format
+SAS|Shared access signature, a time-limited storage access token
+OD|On-demand, a label on some billing meters; meaning of newer meters is unverified
+FS|Federation Services, as in AD FS (Active Directory Federation Services)
+BIM|File format of a Tabular model definition (model.bim)
+CC|Vendor or product label in a connector list; expansion not verified
+KX|Vendor label in a connector list (KX Systems); expansion not needed
+PPM|Product label in a connector list (Hexagon PPM); not expanded
+CNN|Convolutional neural network

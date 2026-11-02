@@ -1,0 +1,42 @@
+11_fabric_onelake/11_direct_lake.md|Guardrails per SKU (F64 5,000 files 1,500M rows 25 GB memory)|confirmed|all rows match Learn overview 2026-10-08|S2600
+references/fabric_onelake/11_direct_lake_guardrails.md|Full guardrail table F2..F8192 and exceed behavior|confirmed|identical to Learn; made authoritative|S2600
+references/patterns_recipes/23_direct_lake_guardrails.md|Duplicate table|corrected|converted to pointer to 11_ ref; links fixed in 23_import_vs_directquery|S2600
+15_devops_lifecycle/15_deployment_pipelines.md|DL pipeline rules conflict S1824 vs S1827|unresolved|Learn pipelines page says use data source rules for Direct Lake; DL overview says rules unsupported for DL on OneLake and supported for DL on SQL; documented both|S2600,S2601
+15_devops_lifecycle/15_deployment_pipelines.md|Pipelines 2 to 10 stages default 3|confirmed||S2601
+15_devops_lifecycle/15_deployment_pipelines.md|Non-enhanced-metadata models unsupported from 2026-02-12|confirmed||S2601
+15_devops_lifecycle/15_deployment_pipelines.md|From 2026-12-01 users without read-write on all items cannot deploy (label-protected items only)|confirmed|scope is workspaces with label-protected items; added 300-item limit and PBIR unsupported note|S2601
+08_service/08_scheduled_refresh.md|Pro 8/day; PPU, Premium, Fabric 48/day|confirmed|also: quota resets 12:01 AM local; XMLA allows more|S2604
+08_service/08_scheduled_refresh.md|Shared refresh limit 2 h; Premium 5 h|confirmed|XMLA refresh can bypass 5 h limit|S2604
+08_service/08_scheduled_refresh.md|Deactivates after 4 consecutive failures; pauses after 2 months inactivity|confirmed|threshold not configurable|S2604
+09_semantic_models_dataflows/09_semantic_model_refresh.md|8/day shared; 48/day Premium/PPU/Fabric; 4 failures; 2 h vs 5 h|confirmed|new: shared capacity 10 GB uncompressed refresh limit; Aug 2026 Refresh button has 3 options|S2604
+07_report_design/07_visual_catalog.md|Q&A retirement Dec 2026 vs Feb 2027|corrected|latest official (Learn pages, fwlink target titled timeline update) = Feb 2027; Dec 2026 is the original Jan 2026 date; marked resolved moderate|S2602,S2603
+08_service/08_subscriptions.md|24 subscriptions per report/dashboard; paginated unlimited|confirmed|clarified paginated exempt; added dynamic subs 1,000 rows|S2605
+08_service/08_subscriptions.md|Instant email caps 10/15/20/25 per hour|confirmed|trial/default/PPU/Premium-Fabric|S2605
+10_paginated_reports/10_paginated_export_subscriptions.md|Attachment 25 MB, 60 min execution|confirmed|dynamic paginated subs timeout 10 min|S2605
+10_paginated_reports/10_paginated_export_subscriptions.md|Paginated subscription limit conflict (24 vs unlimited)|confirmed|24 applies to reports/dashboards only; paginated unlimited|S2605
+08_service/08_workspace_apps.md|One app/workspace; 25 audiences; 10,000 users+groups; 1,000 per audience; 200 dashboards|confirmed|also 1 min publish timeout; workspace users counted per audience|S2606
+08_service/08_data_alerts.md|Up to 250 alerts across all models; only gauge KPI card tiles|confirmed|also numeric only, not on date/time card, no co-ownership; Activator report alerts still public preview (F64+/Premium)|S2607
+08_service/08_workspaces.md|Workspace limit 1,000 items|confirmed|Fabric admin portal page; item-type limits may be lower|S2608
+08_service/08_workspaces.md|Pro user max 1,000 workspaces|confirmed|also 1,000 users/groups in roles per workspace|S2609
+08_service/08_license_requirements.md|Free users view only on Premium or F64+|confirmed|viewer role required; F<64 needs Pro/PPU; trial acts as F64 (60 days)|S2610
+14_embedding_apis/14_embed_service_principal_capacity.md|Free viewers only on P SKUs or F64+; smaller F/A need Pro or PPU|confirmed|per Learn licenses scenario table|S2610
+23_patterns_recipes/23_license_choice.md|Pro 1 GB model 8/day; PPU 100 GB 48/day|confirmed|Pro storage 10 GB/user; PPU 100 TB|S2610
+21_certification_learning/21_pl300_exam.md|PL-300 skills as of 2026-04-20; weights; passing 700; 12-month renewal|confirmed|study guide + cert page last updated 04/20/2026|S2611
+21_certification_learning/21_pl300_exam.md|PL-300 100 minutes|unresolved|duration not on study guide or cert page fetched; marked unverified|S2611
+21_certification_learning/21_pl300_exam.md|PL-300 price US 165|corrected|official Exam FAQ: associate/expert typically US$165 by country; replaced third-party attribution|S2611
+21_certification_learning/21_dp600_exam.md|English update 2026-10-19; weights 25-30/45-50/25-30|confirmed|study guide and cert page; credential last-updated corrected to 2026-07-21|S2612
+21_certification_learning/21_certification_landscape.md|DP-700 weights 30-35 x3 and update 2026-10-19|confirmed|full study guide read now (was snippet); no prior list available|S2612
+21_certification_learning/21_dp600_exam.md|DP-600/DP-700 pre-2026-10-19 skills lists|unresolved|Learn now serves only post-update list; revisit after update|S2612
+09_semantic_models_dataflows/09_datamarts_status.md|Datamarts unsupported since 2025-11-01; new creation redirects since 2025-06-01|confirmed|page still calls datamarts a preview feature in one sentence (inconsistency persists); added default semantic model decoupling dates|S2613
+14_embedding_apis/14_rest_api_endpoint_catalog.md|Real-time streaming datasets retire 2027-10-31 (creation stopped 2024-10-31)|corrected|primary page: creation enabled until 2027-10-31, existing models unaffected; ASA Power BI output jobs stopped from 2027-10-31; old tutorial note outdated|S2614
+15_devops_lifecycle/15_git_integration.md|Workspace 1,000 items; file size 25 MB; commit limits 25 MB ADO SP, 125 MB ADO user, 50 MB GitHub|confirmed|also branch name 244 chars, path 250 chars, folders 10 levels|S2615
+15_devops_lifecycle/15_git_integration.md|From 2026-12-01 users without read-write permission cannot use Git integration|confirmed|Learn note ties to label-protected items|S2615
+15_devops_lifecycle/15_pbir_format.md|PBIR limits 1,000 pages, 1,000 visuals/page, 300 MB report files; GA and default|confirmed|also 1,000 resource package files, 300 MB resource files; service silently converts PBIR-Legacy on edit; restore 28 days|S2616
+14_embedding_apis/14_embed_tokens.md|GenerateToken V2: 50 reports, 50 datasets, 50 target workspaces|confirmed|reports/datasets/target workspaces must be V2 workspaces; roles per identity max 50|S2617
+09_semantic_models_dataflows/09_large_semantic_models.md|Default model limit 1 GB; large format = capacity size or admin max|confirmed|added small-format SKU hard ceiling table (F2 1 GB ... F64+ 10 GB)|S2618
+09_semantic_models_dataflows/09_dataflow_gen2_refresh_limits.md|300 refreshes/24h (150 non-CI/CD), 8 h per query, 24 h per refresh, 50 queries|confirmed|schedule pause rules 72h/6 refreshes and 168h/5 refreshes also confirmed|S2618
+09_semantic_models_dataflows/09_dataflows_gen1_vs_gen2.md|Gen1 legacy, no new investment; new Gen2 items CI/CD only since April 2026|confirmed|Learn what-is-Dataflow-Gen2 states April 2026; Upgrade Wizard Gen1 to Gen2 CI/CD is preview|S2618
+11_fabric_onelake/11_mirroring.md|Free mirroring storage 1 TB per CU purchased; default retention 1 day for new databases|confirmed|REST API page still says default 7 days (1-30 allowed); overview says 1 day after mid-June 2025 portal-created, 7 for old; noted both|S2619
+11_fabric_onelake/11_fabric_capacity_and_licensing.md|P SKUs retire at end of agreement term; 30-day grace, throttle day 31, rejected day 91|confirmed|EA active customers can renew annually; PPU, EM/A, sovereign unaffected|S2619
+11_fabric_onelake/11_capacity_throttling.md|Stages: 10 min overage protection, 20 s delay up to 60 min, interactive rejection to 24 h, background rejection beyond|confirmed|capacity overage 3x PAYG rate, opt-in vs default-enabled wording inconsistent; RTI skips the 20 s delay stage|S2619
+10_paginated_reports/10_paginated_licensing_capacity.md|Free users view paginated only on F64+/P1+ with Viewer; Pro or PPU to publish to other workspaces|confirmed|free can publish to My workspace only; Build permission on dataset and Contributor role needed|S2610

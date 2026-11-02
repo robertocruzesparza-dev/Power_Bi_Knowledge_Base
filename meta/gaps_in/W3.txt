@@ -1,0 +1,13 @@
+data_modeling|Parent-child hierarchies, field parameters, what-if parameters, many-to-many bridge worked examples not covered|time budget|Learn: parent and child DAX functions; field parameters page
+data_modeling|Large semantic model storage format, model size limits per SKU not covered|volatile, belongs with licensing|Learn: service-premium-large-models; licensing domain
+data_modeling|Automatic aggregations configuration steps and fine tuning not detailed|snippet-level only|Learn: aggregations-auto-configure
+data_modeling|Calculation group selection expressions, dynamic format strings, and Tabular Editor authoring not detailed|snippet-level only|Learn: calculation-groups; Tabular Editor docs
+data_modeling|Direct Lake automatic updates, security, and DirectLakeBehavior values not detailed|snippet-level|Learn: direct-lake-how-it-works, direct-lake-manage
+dax|Financial and parent-child function categories not catalogued|time budget|Learn: financial-functions-dax, parent-and-child-functions-dax
+dax|Exact signatures for window functions, TOTALYTD year-end argument, and SUMMARIZECOLUMNS not verified|catalog lists names only|Learn function pages
+dax|SQLBI and DAX Patterns coverage thin (two articles read)|time budget|sqlbi.com/articles, daxpatterns.com
+dax|DAX query syntax (EVALUATE, DEFINE, ORDER BY, INFO functions) not given its own file|time budget|Learn: dax-queries
+dax|Time zone behavior of NOW and TODAY in the service stated as inference|unverified|Learn NOW function page; RADACAD
+performance|Query caching, query parallelization, large model format, and Log Analytics semantic model events not covered|time budget|Learn: power-bi-query-caching, azure-log-analytics
+performance|Best Practice Analyzer and Tabular Editor performance rules not covered|time budget|Tabular Editor docs; Microsoft best practice rules
+performance|Refresh performance (Power Query folding diagnostics, refresh timeouts) only linked, not covered|belongs to W2 domain|04_power_query_m

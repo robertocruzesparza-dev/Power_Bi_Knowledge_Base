@@ -1,0 +1,16 @@
+12_admin_governance_security/12_service_principals.md|Developer settings defaults: SP create workspaces disabled for new customers; SP call Fabric public APIs enabled for new customers|confirmed|Developer settings page unchanged|S3000
+12_admin_governance_security/12_service_principals.md|Admin API settings list; detailed-metadata settings need read-only admin API setting|corrected|Added dependency and Purview DSPM for AI requirement; noted old setting name Allow service principals to use Power BI APIs|S3003
+12_admin_governance_security/12_service_principals.md|401 causes; embed limits (My workspace, org-embed, dataflows, AAS group)|corrected|Added token audience, admin-consent permission and ISO 8601 date causes; embed limits confirmed|S3004
+12_admin_governance_security/12_external_sharing_b2b.md|Invite setting, Guest Inviter role, Pro trial cannot invite, social identities, license matrix, cross-cloud limits, 50-tenant switcher|confirmed|No change on live page|S3002
+12_admin_governance_security/12_external_sharing_b2b.md|Guest Free license when content on F64 or larger|confirmed|Licensing guide still says F64+|S3007
+references/admin_governance_security/12_audit_operations.md|All 37 operation names present|confirmed|Found on live operation list|S3006
+references/admin_governance_security/12_audit_operations.md|Friendly names for ExportReport and ApplyChangeToPowerBIModel|corrected|Aligned wording to live list|S3006
+references/admin_governance_security/12_tenant_settings_catalog.md|Setting names by section|corrected|Added Event Schema Sets, Fabric Apps anonymous access, Agent 365 observability, Product Feedback, Teams auto-install, Azure Maps services, edit semantic models, Kusto setting|S3001
+13_licensing_pricing/13_premium_p_sku_retirement.md|Final EA end date for P SKU|unresolved|Learn gives no fixed date; says EA can renew annually until EA term ends and to confirm with account rep. 2028-01-01 remains third-party only|S3008
+13_licensing_pricing/13_premium_p_sku_retirement.md|Grace 30 days, throttle days 31-90, block from day 91; no new P SKUs; Pro/PPU/EM/A unaffected|confirmed|Unchanged|S3008
+13_licensing_pricing/13_pricing_reference.md|Capacity overage meter 0.54 USD at 3x PAYG; Power BI Capacity Usage CU 0.18 West US 2|confirmed|API read 2026-10-09 (first 100000 chars); overage enabled by default and 3x on Learn|S3009
+13_licensing_pricing/13_pricing_reference.md|On-Demand Usage CU meters (2026-10-01)|unresolved|Still no Learn definition; Azure bill page points to Retail Prices API; Spark on-demand doc is separate (0.5 CU hour rate)|S3011
+13_licensing_pricing/13_pricing_reference.md|Fabric Azure pricing page blank price cells|unresolved|Not retried via page render; used API instead|S3009
+12_admin_governance_security/12_object_level_security.md|OLS multi-role merge rule|unresolved|SSAS page still gives only the RLS+OLS error; OneLake security unions roles but is a different feature|S3012
+12_admin_governance_security/12_compliance_encryption.md|Compliance list|corrected|Added Power BI in scope for HITRUST, SOC 1, SOC 2, ISO 27017/27001 from healthcare page; Fabric-level SOC still not stated|S3014
+20_migration/20_tableau_to_power_bi.md|No official Tableau/Qlik/Cognos concept maps|unresolved|Search again found only the tool-agnostic migration series|S3008

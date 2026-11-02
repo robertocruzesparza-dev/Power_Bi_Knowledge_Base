@@ -1,0 +1,4 @@
+publish|Publishing from Desktop to the service
+install|Installation and deployment of Desktop
+file-format|File formats (pbix, pbit)
+cheatsheet is under content-type tags but validator rejects it as front matter type; consider allowing type: cheatsheet

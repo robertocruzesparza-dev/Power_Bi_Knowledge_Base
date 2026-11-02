@@ -1,0 +1,10 @@
+02_desktop/02_install_and_requirements.md|Only the latest Desktop release is supported; 32-bit build unsupported|S002
+02_desktop/02_install_and_requirements.md|Min requirements: Windows 10 or Server 2016+, .NET 4.7.2, 2 GB RAM min|S002
+01_foundations/01_licenses_and_capacity.md|F64 or larger lets Free users with Viewer role view Power BI content|S009
+01_foundations/01_licenses_and_capacity.md|P SKUs retire at end of agreement term; 30 day grace, throttle 31-90, block 91+|S026
+references/foundations/01_fabric_sku_table.md|F SKU capacity unit and P/A SKU mapping (F64=P1=64 CU)|S009
+02_desktop/02_limits.md|Model size limit 1 GB shared/Pro; Desktop upload 10 GB|S015
+02_desktop/02_limits.md|Scheduled refresh timeout 2 h shared, 5 h Premium; disabled after 4 failures|S016
+02_desktop/02_limits.md|Visual query limits: 225 s timeout; 1 GB shared, 10 GB Premium memory|S014
+02_desktop/02_file_formats.md|PBIR is GA and default report format; PBIP excludes sensitivity labels|S029
+02_desktop/02_update_and_release_cadence.md|Desktop versions 2.152.882.0 (Mar 2026) to 2.155.756.0 (Jun 2026); Aug 2026 latest seen|S011

@@ -1,0 +1,4 @@
+vertipaq|VertiPaq engine and analyzer topics (used performance, optimization)
+window-function|DAX window and visual calculation functions (used dax-function)
+udf|DAX user-defined functions (used dax)
+throttling|Capacity smoothing and throttling (used capacity, monitoring)
